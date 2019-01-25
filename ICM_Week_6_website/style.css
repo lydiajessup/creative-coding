@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 15px;
+  font-family: sans-serif;
+  height: 100px;
+  width: 500px;
+
+}
+
+div {
+  margin:  0;
+  padding: 0;
+  text-align: center;
+  color: #4286f4;
+  object-position: right-top;
+
+}
+
+
+#dropzone {
+  position: relative;
+  left: 300px;
+  padding: 15px;
+  border: dashed red;
+  color: black;
+  background-color: white;
+  
+}
+
+#observations {
+  position: relative;
+  left: 300px;
+  padding: 15px;
+  background-color: white;
+  border: solid #eef218;
+}
+
+#reflections {
+  position: relative;
+  left: 300px;
+  padding: 15px;
+  border: thick double #1bad36;
+  color: black;
+  background-color: white;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 110px;
+  border: 2mm ridge rgb(170, 50, 220, .6);
+}
